@@ -1,0 +1,51 @@
+{
+	"color_scheme": "Packages/Theme - Gravity/One Dark Gravity.tmTheme",
+	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		".gitignore",
+		"CNAME"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache",
+		"_site"
+	],
+	"font_size": 14,
+	"gravity_highlight_color_blue": true,
+	"gravity_sidebar_header": true,
+	"gravity_tab_height_short": true,
+	"gravity_title_bar": true,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"theme": "Gravity One.sublime-theme"
+}
