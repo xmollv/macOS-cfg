@@ -2,7 +2,7 @@
 
 ## Bash Profile
 
-Copy [.bash_profile](https://github.com/xmollv/macOS-cfg/blob/master/.bash_profile) to `~/.bash_profile`
+Copy [.zshrc](https://github.com/xmollv/macOS-cfg/blob/master/.zshrc) to `~/.zshrc`
 
 ## Xcode
 
