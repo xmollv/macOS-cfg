@@ -1,17 +1,3 @@
-# This makes the prompt pretty
-makeThePromptPretty() {
-	# Load version control information
-	autoload -Uz vcs_info
-	precmd() { vcs_info }
-
-	# Format the vcs_info_msg_0_ variable
-	zstyle ':vcs_info:git:*' formats '(%b): '
-
-	# Set up the prompt (with git branch name)
-	setopt PROMPT_SUBST
-	PROMPT='🐙 %F{green}${vcs_info_msg_0_}%f'
-}
-
 # Symbolicate crash logs 
 symbolicatecrash() {
 	# Step 1: List the available "symbolicatecrash" tools. We're looking for the "DVTFoundation" one
@@ -32,7 +18,17 @@ symbolicatecrash() {
 }
 
 # Start
-makeThePromptPretty
+# Load version control information
+autoload -Uz vcs_info
+precmd() { vcs_info }
+
+# Format the vcs_info_msg_0_ variable
+zstyle ':vcs_info:git:*' formats '(%b) '
+
+# Set up the prompt (with git branch name)
+setopt PROMPT_SUBST
+PROMPT='→ %F{green}${vcs_info_msg_0_}%f'
+RPROMPT="[%@]"
 
 #Alias
 alias fuck_xcode="killall Xcode; rm -rf ~/Library/Developer/Xcode/DerivedData; open /Applications/Xcode.app/"
