@@ -31,5 +31,5 @@ PROMPT='→ %F{green}${vcs_info_msg_0_}%f'
 RPROMPT="[%@]"
 
 #Alias
-alias fuck_xcode="killall Xcode; rm -rf ~/Library/Developer/Xcode/DerivedData; open /Applications/Xcode.app/"
+alias ffs="killall Xcode; rm -rf ~/Library/Developer/Xcode/DerivedData; open /Applications/Xcode.app/"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
