@@ -1,5 +1,5 @@
 # Symbolicate crash logs 
-symbolicatecrash() {
+function symbolicatecrash() {
 	# Step 1: List the available "symbolicatecrash" tools. We're looking for the "DVTFoundation" one
 	# find /Applications -name symbolicatecrash
 
@@ -33,3 +33,6 @@ RPROMPT="[%@]"
 #Alias
 alias ffs="killall Xcode; rm -rf ~/Library/Developer/Xcode/DerivedData; open /Applications/Xcode.app/"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias sb="xcrun simctl status_bar booted override --time 9:41 --cellularBars 4"
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
