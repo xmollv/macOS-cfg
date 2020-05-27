@@ -27,8 +27,9 @@ zstyle ':vcs_info:git:*' formats '(%b) '
 
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
-PROMPT='→ %F{green}${vcs_info_msg_0_}%f'
-RPROMPT="[%@]"
+PROMPT='
+╭── %226F%~%f %F{green}${vcs_info_msg_0_}%f
+╰─○ '
 
 #Alias
 alias ffs="killall Xcode; rm -rf ~/Library/Developer/Xcode/DerivedData; open /Applications/Xcode.app/"
