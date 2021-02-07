@@ -35,7 +35,7 @@
 		".sass-cache",
 		"_site"
 	],
-	"font_size": 16,
+	"font_size": 14,
 	"gravity_highlight_color_blue": true,
 	"gravity_sidebar_header": true,
 	"gravity_tab_height_short": true,
