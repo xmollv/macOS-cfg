@@ -22,5 +22,4 @@ Establish [SublimeText.json](https://github.com/xmollv/macOS-cfg/blob/master/Sub
 
 # Other
 
-Disable font smoothing
-`defaults -currentHost write -g AppleFontSmoothing -int 0`
+Disable font smoothing: `defaults -currentHost write -g AppleFontSmoothing -int 0`
