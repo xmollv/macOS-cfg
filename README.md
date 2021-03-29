@@ -19,3 +19,8 @@ Establish [Terminal.terminal](https://github.com/xmollv/macOS-cfg/blob/master/Te
 - Install `Theme - Gravity` package
 
 Establish [SublimeText.json](https://github.com/xmollv/macOS-cfg/blob/master/SublimeText.json) as the `Preferences > Settings`
+
+# Other
+
+Disable font smoothing
+`defaults -currentHost write -g AppleFontSmoothing -int 0`
