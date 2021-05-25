@@ -47,5 +47,6 @@
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
-	"theme": "Gravity One.sublime-theme"
+	"theme": "Gravity One.sublime-theme",
+	"open_files_in_new_window": false
 }
