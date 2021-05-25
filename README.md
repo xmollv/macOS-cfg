@@ -12,7 +12,7 @@ Copy [.gitconfig](https://github.com/xmollv/macOS-cfg/blob/master/.gitconfig) to
 
 Establish [Terminal.terminal](https://github.com/xmollv/macOS-cfg/blob/master/Terminal.terminal) as the default terminal
 
-## Sublime Text 3
+## Sublime Text 4
 
 - Install `Package Control` from https://packagecontrol.io/installation
 - Install `Indent XML` package
