@@ -32,8 +32,12 @@ PROMPT='
 ╰─○ '
 
 #Alias
+# Source: https://lapcatsoftware.com/articles/DerivedData.html
 alias ffs='osascript -e "tell application \"Finder\" to move POSIX file \"/Users/xmollv/Library/Developer/Xcode/DerivedData\" to trash" -e "tell application \"Finder\" to empty trash"'
+
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
 alias sb="xcrun simctl status_bar booted override --time 9:41 --cellularBars 4"
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
