@@ -23,3 +23,4 @@ Establish [SublimeText.json](https://github.com/xmollv/macOS-cfg/blob/master/Sub
 ## Other
 
 Disable font smoothing: `defaults -currentHost write -g AppleFontSmoothing -int 0`
+Reduce the delay when showing the hidden dock: `defaults write com.apple.dock autohide-time-modifier -float 0.2;killall Dock`
