@@ -11,12 +11,11 @@
 
 ## Non-default apps to install:
 - 1Password
+- BetterSnapTool
+- Mos: https://github.com/Caldis/Mos
 - Xcode
 - Fork
 - 1Blocker
-- DaisyDisk
-- BetterSnapTool
-- Mos: https://github.com/Caldis/Mos
 - Dropbox
 - Spotify
 - Chrome
