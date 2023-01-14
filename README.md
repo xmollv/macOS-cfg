@@ -14,7 +14,6 @@ Establish [Terminal.terminal](https://github.com/xmollv/macOS-cfg/blob/master/Te
 
 ## Sublime Text 4
 
-- Install `Package Control` from https://packagecontrol.io/installation
 - Install `Indent XML` package
 - Install `Theme - Gravity` package
 
@@ -22,5 +21,5 @@ Establish [SublimeText.json](https://github.com/xmollv/macOS-cfg/blob/master/Sub
 
 ## Other
 
-Disable font smoothing: `defaults -currentHost write -g AppleFontSmoothing -int 0`
-Reduce the delay when showing the hidden dock: `defaults write com.apple.dock autohide-time-modifier -float 0.2;killall Dock`
+- Disable font smoothing: `defaults -currentHost write -g AppleFontSmoothing -int 0`
+- Install Mos to disable natural scrolling on the mouse while keeping natural scrolling on the trackpad: https://github.com/Caldis/Mos
