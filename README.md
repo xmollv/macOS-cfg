@@ -10,15 +10,18 @@
     3. Establish [SublimeText.json](https://github.com/xmollv/macOS-cfg/blob/master/SublimeText.json) as the `Preferences > Settings`
 
 ## Non-default apps to install:
-- 1Password
-- BetterSnapTool
 - Mos: https://github.com/Caldis/Mos
 - Xcode
+- SublimeText
 - Fork
 - 1Blocker
 - Dropbox
 - Spotify
 - Chrome
+- DaisyDisk
+- AppCleaner
+- Ivory
+- Later
 
 ## Other
 
